@@ -22,7 +22,7 @@ private AccountServiceImpl accountServiceImpl;
         payment.setDestinationAmount(payment.getDestinationAmount());
 //payment.getPaymentType(payment.getPaymentType());
 
-        logger.info("Payment Entry " + payment.toString());
+//        logger.info("Payment Entry " + payment.toString());
 
         accountServiceImpl.UpdateAccountBalance();
 
